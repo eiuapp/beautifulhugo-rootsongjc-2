@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>小楼一夜听春雨</title>
+    <link>https://bhr2.eiu.app/jobs/</link>
+    <description>Recent content on 小楼一夜听春雨</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>273412935@qq.com (小楼)</managingEditor>
+    <webMaster>273412935@qq.com (小楼)</webMaster>
+    
+	<atom:link href="https://bhr2.eiu.app/jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
