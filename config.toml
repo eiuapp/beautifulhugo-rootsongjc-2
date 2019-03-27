@@ -92,69 +92,69 @@ desc = "tencent-cloud-geekbang-01"
 
 # 菜单栏
 [[menu.main]]
-    identifier = "分类"
-    name = "分类"
+    identifier = "categories"
+    name = "文章分类"
     weight = 1
 
 [[menu.main]]
-    parent = "分类"
+    parent = "categories"
     name = "所有分类"
     url = "categories/"
     weight = 1
 
 [[menu.main]]
-    parent = "分类"
+    parent = "categories"
     name = "kubernetes"
     url = "categories/kubernetes"
     weight = 2
     
 [[menu.main]]
-    parent = "分类"
+    parent = "categories"
     name = "docker"
     url = "categories/docker"
     weight = 3
 
 [[menu.main]]
-    parent = "分类"
+    parent = "categories"
     name = "python"
     url = "categories/python"
     weight = 4
     
 [[menu.main]]
-    parent = "分类"
+    parent = "categories"
     name = "Github"
     url = "categories/github"
     weight = 5
 
 [[menu.main]]
-    parent = "Categories"
+    parent = "categories"
     name = "mysql"
     url = "categories/mysql"
     weight = 6
+
+
+[[menu.main]]
+    identifier = "Gitbook"
+    name = "电子书"
+    weight = 2
+
+[[menu.main]]
+    parent = "Gitbook"
+    name = "Ceph Handbook"
+    url = "https://eiuapp.github.io/ceph-handbook"
+    weight = 2
+
+[[menu.main]]
+    parent = "Gitbook"
+    name = "Swift Handbook"
+    url = "https://eiuapp.github.io/swift-handbook"
+    weight = 3
 
 [[menu.main]]
     identifier = "Post"
     name = "归档"
     url = "/post"
-    weight = 2
-
-[[menu.main]]
-    identifier = "Books"
-    name = "Books"
-    weight = 2
-
-[[menu.main]]
-    parent = "Books"
-    name = "Ceph Handbook"
-    url = "https://eiuapp.github.io/ceph-handbook"
-    weight = 2
-
-[[menu.main]]
-    parent = "Books"
-    name = "Ceph Handbook"
-    url = "https://eiuapp.github.io/ceph-handbook"
     weight = 3
-
 
 [[menu.main]]
     identifier = "Tags"
@@ -163,15 +163,16 @@ desc = "tencent-cloud-geekbang-01"
     weight = 4
 
 [[menu.main]]
-    name = "关于"
-    url = "/about"
-    weight = 5
-
-[[menu.main]]
    identifier = "Projects"
    name = "作品"
    url = "/works"
    weight = 6
+
+[[menu.main]]
+    name = "关于"
+    url = "/about"
+    weight = 5
+
 
 #[[menu.main]]
 #    parent = "Projects"
