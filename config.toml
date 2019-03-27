@@ -132,6 +132,11 @@ desc = "tencent-cloud-geekbang-01"
     url = "categories/mysql"
     weight = 6
 
+[[menu.main]]
+    parent = "categories"
+    name = "标签"
+    url = "/tags"
+    weight = 99
 
 [[menu.main]]
     identifier = "Gitbook"
@@ -150,17 +155,17 @@ desc = "tencent-cloud-geekbang-01"
     url = "https://eiuapp.github.io/swift-handbook"
     weight = 3
 
-[[menu.main]]
-    identifier = "Post"
-    name = "归档"
-    url = "/post"
-    weight = 3
+# [[menu.main]]
+#    identifier = "Post"
+#    name = "归档"
+#    url = "/post"
+#    weight = 3
 
-[[menu.main]]
-    identifier = "Tags"
-    name = "标签"
-    url = "/tags"
-    weight = 4
+#[[menu.main]]
+#    identifier = "Tags"
+#    name = "标签"
+#    url = "/tags"
+#    weight = 4
 
 [[menu.main]]
    identifier = "Projects"
@@ -171,7 +176,7 @@ desc = "tencent-cloud-geekbang-01"
 [[menu.main]]
     name = "关于"
     url = "/about"
-    weight = 5
+    weight = 9
 
 
 #[[menu.main]]
